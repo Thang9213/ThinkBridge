@@ -1,0 +1,13 @@
+C:\Users\Thang Nguyen\Documents\Postgre\Postgres\bin\Debug\netcoreapp3.1\Postgres.exe
+C:\Users\Thang Nguyen\Documents\Postgre\Postgres\bin\Debug\netcoreapp3.1\Postgres.deps.json
+C:\Users\Thang Nguyen\Documents\Postgre\Postgres\bin\Debug\netcoreapp3.1\Postgres.runtimeconfig.json
+C:\Users\Thang Nguyen\Documents\Postgre\Postgres\bin\Debug\netcoreapp3.1\Postgres.runtimeconfig.dev.json
+C:\Users\Thang Nguyen\Documents\Postgre\Postgres\bin\Debug\netcoreapp3.1\Postgres.dll
+C:\Users\Thang Nguyen\Documents\Postgre\Postgres\bin\Debug\netcoreapp3.1\Postgres.pdb
+C:\Users\Thang Nguyen\Documents\Postgre\Postgres\obj\Debug\netcoreapp3.1\Postgres.csprojAssemblyReference.cache
+C:\Users\Thang Nguyen\Documents\Postgre\Postgres\obj\Debug\netcoreapp3.1\Postgres.AssemblyInfoInputs.cache
+C:\Users\Thang Nguyen\Documents\Postgre\Postgres\obj\Debug\netcoreapp3.1\Postgres.AssemblyInfo.cs
+C:\Users\Thang Nguyen\Documents\Postgre\Postgres\obj\Debug\netcoreapp3.1\Postgres.dll
+C:\Users\Thang Nguyen\Documents\Postgre\Postgres\obj\Debug\netcoreapp3.1\Postgres.pdb
+C:\Users\Thang Nguyen\Documents\Postgre\Postgres\bin\Debug\netcoreapp3.1\Npgsql.dll
+C:\Users\Thang Nguyen\Documents\Postgre\Postgres\obj\Debug\netcoreapp3.1\Postgres.csproj.CopyComplete

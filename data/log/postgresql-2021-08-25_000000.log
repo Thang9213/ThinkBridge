@@ -1,0 +1,7 @@
+2021-09-01 12:08:22.698 EDT [24104] ERROR:  syntax error at or near "SHOW" at character 21
+2021-09-01 12:08:22.698 EDT [24104] STATEMENT:  show data_directory
+	SHOW data_directory;
+2021-09-01 12:09:05.248 EDT [24104] ERROR:  syntax error at or near "directory" at character 11
+2021-09-01 12:09:05.248 EDT [24104] STATEMENT:  SHOW data directory
+	SHOW data_directory
+	show data_directory;

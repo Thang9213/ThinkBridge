@@ -1,0 +1,155 @@
+2021-08-18 11:16:39.327 EDT [32824] ERROR:  syntax error at or near "[" at character 14
+2021-08-18 11:16:39.327 EDT [32824] STATEMENT:  Create Table [if not exists] ShopBrigde
+	(
+	id_ integer,
+	name string,
+	description string
+	)
+2021-08-18 11:16:56.504 EDT [32824] ERROR:  type "string" does not exist at character 45
+2021-08-18 11:16:56.504 EDT [32824] STATEMENT:  Create Table ShopBrigde
+	(
+	id_ integer,
+	name string,
+	description string
+	)
+2021-08-18 11:19:31.791 EDT [32824] ERROR:  relation "shopbrigde" already exists
+2021-08-18 11:19:31.791 EDT [32824] STATEMENT:  Create Table ShopBrigde
+	(
+	id_ integer unique not null,
+	name varchar (50) unique not null
+	)
+2021-08-18 11:20:53.207 EDT [32824] ERROR:  relation "shopbrigde" already exists
+2021-08-18 11:20:53.207 EDT [32824] STATEMENT:  Create Table ShopBrigde
+	(
+	id_ integer unique not null,
+	Name varchar (50) unique not null,
+	Description Varchar(1000) unique not null
+	)
+2021-08-18 11:21:34.703 EDT [32824] ERROR:  relation "shopbrigde" already exists
+2021-08-18 11:21:34.703 EDT [32824] STATEMENT:  Create Table ShopBrigde
+	(
+	id_ integer unique not null,
+	Name varchar (50) unique not null,
+	Description Varchar(1000) unique not null
+	)
+2021-08-18 11:37:03.701 EDT [32824] ERROR:  relation "student" does not exist
+2021-08-18 11:37:03.701 EDT [32824] STATEMENT:  Truncate Table student
+2021-08-18 11:37:16.111 EDT [32824] ERROR:  relation "student" does not exist
+2021-08-18 11:37:16.111 EDT [32824] STATEMENT:  Truncate Table student;
+2021-08-18 11:37:50.662 EDT [21964] ERROR:  relation "student" does not exist
+2021-08-18 11:37:50.662 EDT [21964] STATEMENT:  Truncate TAble student;
+2021-08-18 11:38:10.481 EDT [21964] ERROR:  relation "student" does not exist
+2021-08-18 11:38:10.481 EDT [21964] STATEMENT:  Truncate Table student;
+2021-08-18 11:38:54.629 EDT [21964] ERROR:  relation "student" does not exist
+2021-08-18 11:38:54.629 EDT [21964] STATEMENT:  Truncate Table student;
+2021-08-18 11:40:02.563 EDT [54764] ERROR:  relation "student" does not exist
+2021-08-18 11:40:02.563 EDT [54764] STATEMENT:  truncate table student;
+2021-08-18 11:40:10.790 EDT [54764] ERROR:  relation "student" does not exist
+2021-08-18 11:40:10.790 EDT [54764] STATEMENT:  truncate table student;
+2021-08-18 11:41:32.459 EDT [54764] ERROR:  relation "student" does not exist
+2021-08-18 11:41:32.459 EDT [54764] STATEMENT:  alter table student rename to infostudents;
+2021-08-18 11:42:50.740 EDT [54764] ERROR:  relation "student" does not exist
+2021-08-18 11:42:50.740 EDT [54764] STATEMENT:  alter table "student" rename to infostudents;
+2021-08-18 11:43:29.602 EDT [54764] ERROR:  relation "student" does not exist
+2021-08-18 11:43:29.602 EDT [54764] STATEMENT:  alter table student rename to infostudents;
+2021-08-18 11:43:44.776 EDT [54764] ERROR:  relation "teacher" does not exist
+2021-08-18 11:43:44.776 EDT [54764] STATEMENT:  alter table Teacher rename to infostudents;
+2021-08-18 11:43:54.477 EDT [54764] ERROR:  relation "Teacher" does not exist
+2021-08-18 11:43:54.477 EDT [54764] STATEMENT:  alter table "Teacher" rename to infostudents;
+2021-08-18 11:45:09.445 EDT [54764] ERROR:  syntax error at or near ";" at character 22
+2021-08-18 11:45:09.445 EDT [54764] STATEMENT:  create table students;
+2021-08-18 11:50:40.717 EDT [27908] ERROR:  relation "teacher" does not exist
+2021-08-18 11:50:40.717 EDT [27908] STATEMENT:  alter table Teacher RENAME TO infoTeacher
+2021-08-18 11:54:40.351 EDT [53832] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2021-08-18 11:58:05.458 EDT [27908] ERROR:  syntax error at or near "1" at character 22
+2021-08-18 11:58:05.458 EDT [27908] STATEMENT:  insert into student (1,'Thang', '1999-01-15');
+2021-08-18 11:59:45.903 EDT [27908] ERROR:  syntax error at or near "'1'" at character 22
+2021-08-18 11:59:45.903 EDT [27908] STATEMENT:  insert into student ('1', 'Thang', '1999-01-15');
+2021-08-18 12:00:09.858 EDT [27908] ERROR:  syntax error at or near "'Thang'" at character 23
+2021-08-18 12:00:09.858 EDT [27908] STATEMENT:  insert into student ( 'Thang', '1999-01-15');
+2021-08-18 12:00:48.185 EDT [27908] ERROR:  syntax error at or near "1" at character 23
+2021-08-18 12:00:48.185 EDT [27908] STATEMENT:  insert into student ( 1, 'Thang', '1999-01-15');
+2021-08-18 12:00:59.106 EDT [27908] ERROR:  syntax error at or near "'Thang'" at character 22
+2021-08-18 12:00:59.106 EDT [27908] STATEMENT:  insert into student ('Thang', '1999-01-15');
+2021-08-18 12:01:12.255 EDT [27908] ERROR:  syntax error at or near "value" at character 21
+2021-08-18 12:01:12.255 EDT [27908] STATEMENT:  insert into student value ('Thang', '1999-01-15');
+2021-08-18 13:03:32.239 EDT [27908] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2021-08-18 13:03:32.240 EDT [33040] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2021-08-18 13:03:32.274 EDT [18124] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2021-08-18 13:07:10.583 EDT [3464] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2021-08-18 13:25:53.171 EDT [49680] ERROR:  syntax error at or near "information" at character 17
+2021-08-18 13:25:53.171 EDT [49680] STATEMENT:  Set search_path information;
+2021-08-18 19:04:17.004 EDT [49184] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2021-08-18 19:04:17.004 EDT [49680] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2021-08-18 19:04:17.011 EDT [55488] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2021-08-18 19:18:45.089 EDT [83316] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2021-08-18 20:31:31.595 EDT [97100] ERROR:  relation "shopbridge" does not exist at character 15
+2021-08-18 20:31:31.595 EDT [97100] STATEMENT:  Select * from shopbridge;
+2021-08-18 20:32:03.076 EDT [107744] ERROR:  relation "shopbridge" does not exist at character 15
+2021-08-18 20:32:03.076 EDT [107744] STATEMENT:  SELECT * FROM shopbridge
+2021-08-18 20:32:23.421 EDT [107744] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2021-08-19 00:33:20.327 EDT [130620] ERROR:  INSERT has more expressions than target columns at character 43
+2021-08-19 00:33:20.327 EDT [130620] STATEMENT:  INSERT INTO inventory VALUES ($1, $2, $3, $4)
+2021-08-19 00:33:58.948 EDT [130620] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2021-08-19 00:34:11.133 EDT [130216] ERROR:  duplicate key value violates unique constraint "shopbrigde_id__key"
+2021-08-19 00:34:11.133 EDT [130216] DETAIL:  Key (id_)=(2) already exists.
+2021-08-19 00:34:11.133 EDT [130216] STATEMENT:  INSERT INTO shopbrigde VALUES ($1, $2, $3, $4)
+2021-08-19 00:34:29.424 EDT [130216] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2021-08-19 00:34:35.371 EDT [129584] ERROR:  duplicate key value violates unique constraint "shopbrigde_name_key"
+2021-08-19 00:34:35.371 EDT [129584] DETAIL:  Key (name)=(Phone) already exists.
+2021-08-19 00:34:35.371 EDT [129584] STATEMENT:  INSERT INTO shopbrigde VALUES ($1, $2, $3, $4)
+2021-08-19 00:35:05.318 EDT [129584] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2021-08-19 00:35:18.390 EDT [129644] ERROR:  duplicate key value violates unique constraint "shopbrigde_description_key"
+2021-08-19 00:35:18.390 EDT [129644] DETAIL:  Key (description)=(Talk with) already exists.
+2021-08-19 00:35:18.390 EDT [129644] STATEMENT:  INSERT INTO shopbrigde VALUES ($1, $2, $3, $4)
+2021-08-19 00:35:27.147 EDT [129644] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2021-08-19 00:42:52.351 EDT [97100] ERROR:  cannot insert into column "id_"
+2021-08-19 00:42:52.351 EDT [97100] DETAIL:  Column "id_" is an identity column defined as GENERATED ALWAYS.
+2021-08-19 00:42:52.351 EDT [97100] HINT:  Use OVERRIDING SYSTEM VALUE to override.
+2021-08-19 00:42:52.351 EDT [97100] STATEMENT:  insert into shopbrigde values ('1', 'Cake', 'Food', 1.00 );
+	
+2021-08-19 00:43:03.692 EDT [97100] ERROR:  invalid input syntax for type integer: "Cake" at character 32
+2021-08-19 00:43:03.692 EDT [97100] STATEMENT:  insert into shopbrigde values ('Cake', 'Food', 1.00 );
+	
+2021-08-19 00:43:24.165 EDT [97100] ERROR:  cannot insert into column "id_"
+2021-08-19 00:43:24.165 EDT [97100] DETAIL:  Column "id_" is an identity column defined as GENERATED ALWAYS.
+2021-08-19 00:43:24.165 EDT [97100] HINT:  Use OVERRIDING SYSTEM VALUE to override.
+2021-08-19 00:43:24.165 EDT [97100] STATEMENT:  insert into shopbrigde values ('5', 'Cake', 'Food', 1.00 );
+	
+2021-08-19 00:44:14.184 EDT [97100] ERROR:  column "price" of relation "shopbrigde" does not exist at character 44
+2021-08-19 00:44:14.184 EDT [97100] STATEMENT:  insert into shopbrigde (name, description, Price) values ('Pie', 'pi', 3.00 );
+	
+2021-08-19 00:44:32.337 EDT [97100] ERROR:  duplicate key value violates unique constraint "shopbrigde_id__key"
+2021-08-19 00:44:32.337 EDT [97100] DETAIL:  Key (id_)=(1) already exists.
+2021-08-19 00:44:32.337 EDT [97100] STATEMENT:  insert into shopbrigde (name, description, Price) values ('Pie', 'pi', 3.00 );
+	
+2021-08-19 00:45:35.873 EDT [97100] ERROR:  duplicate key value violates unique constraint "shopbrigde_name_key"
+2021-08-19 00:45:35.873 EDT [97100] DETAIL:  Key (name)=(Pie) already exists.
+2021-08-19 00:45:35.873 EDT [97100] STATEMENT:  insert into shopbrigde (name, description, Price) values ('Pie', 'pi', 3.00 );
+	
+2021-08-19 00:51:41.881 EDT [131416] ERROR:  column "a" does not exist at character 59
+2021-08-19 00:51:41.881 EDT [131416] STATEMENT:  INSERT INTO shopbrigde(name, description, Price) VALUES (@a, $1, $2, $3)
+2021-08-19 00:51:57.755 EDT [131416] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2021-08-19 01:18:12.820 EDT [140836] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2021-08-19 01:29:42.665 EDT [97100] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2021-08-19 01:29:42.666 EDT [83276] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2021-08-19 01:29:42.714 EDT [142792] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
